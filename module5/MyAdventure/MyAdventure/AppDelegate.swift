@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MyAdventure
 //
-//  Created by Fletcher Crockett on 2/8/24.
+//  Created by Cameron Crockett on 2/8/24.
 //
 
 import UIKit
