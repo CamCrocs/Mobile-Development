@@ -1,25 +1,23 @@
 # Mobile-Development
-Module 5 assignment. Following MVC design pattern using a model class with struct for character decision and logic.
+Module 6 assignment. Following MVC design pattern and utilizing navigation layers to achieve a functional currency converter.
 
 
 ### iPhone vertical view:
 
-![Screen Shot 2024-02-09 at 2 46 21 PM](https://github.com/CamCrocs/Mobile-Development/assets/105682068/24d30ebd-045d-4db0-9a5f-e973e8fb3c54)
-
+![Screen Shot 2024-02-16 at 1 47 51 PM](https://github.com/CamCrocs/Mobile-Development/assets/105682068/d429d044-510a-47ad-94ce-14ef4ff0891e)
 
 
 ### iPhone horizontal view:
 
-![Screen Shot 2024-02-09 at 2 47 41 PM](https://github.com/CamCrocs/Mobile-Development/assets/105682068/e398db25-bb00-43b7-8faa-32ed237a56e2)
+![Screen Shot 2024-02-16 at 1 49 09 PM](https://github.com/CamCrocs/Mobile-Development/assets/105682068/3981c870-f1a9-4a14-bc65-06bb129c9ca6)
 
+![Screen Shot 2024-02-16 at 1 49 40 PM](https://github.com/CamCrocs/Mobile-Development/assets/105682068/b7011588-787d-4cc4-bc7e-f95c06483239)
 
 
 ### iPad view:
 
-![Screen Shot 2024-02-09 at 2 50 58 PM](https://github.com/CamCrocs/Mobile-Development/assets/105682068/6407d87a-1d2e-4d30-b529-dc329dd763eb)
+![Screen Shot 2024-02-16 at 1 52 36 PM](https://github.com/CamCrocs/Mobile-Development/assets/105682068/8ef6609d-dc6c-44ba-8571-fc320a40a78c)
 
 
 
-### Start new game functionality:
 
-![Screen Shot 2024-02-09 at 2 48 18 PM](https://github.com/CamCrocs/Mobile-Development/assets/105682068/809e5fe3-c277-498e-9ddd-55568d2adbe1)
