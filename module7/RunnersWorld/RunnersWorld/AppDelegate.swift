@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  RunnersWorld
 //
-//  Created by Fletcher Crockett on 2/18/24.
+//  Created by Cameron Crockett on 2/18/24.
 //
 
 import UIKit
@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        print("Application is running")
         let viewController = ViewController()
         let navController = UINavigationController(rootViewController: viewController)
         

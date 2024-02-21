@@ -24,7 +24,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Navigation controller: \(navigationController)")
         setUpView()
         // Do any additional setup after loading the view.
     }
@@ -45,6 +44,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cityTableView.dataSource = self
         cityTableView.delegate = self
         cityTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell1")
+        
+        
     }
     
     
@@ -62,18 +63,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Cell selected at indexPath: \(indexPath)")
         let selectedCity = cities[indexPath.row]
-        showCityDetails(for: selectedCity)
+        performSegue(withIdentifier: "citySegue", sender: selectedCity)
     }
     
-    func showCityDetails(for city: CityState) {
-        if let navigationController = navigationController {
-            let cityDetail = CityDetailViewController()
-            cityDetail.city = city
-            navigationController.pushViewController(cityDetail, animated: true)
-        } else {
-            print("Navigation controller is nil")
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "citySegue" {
+            if let destinationViewController = segue.destination as? CityDetailViewController,
+               let selectedCity = sender as? CityState {
+                destinationViewController.city = selectedCity
+            }
         }
     }
 }
